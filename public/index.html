@@ -32,7 +32,7 @@
 <!--menu-bar-->
 <header class="fixed top-8 right-0 left-0 w-[90%] mx-auto py-5 px-10 rounded-3xl bg-black/50 backdrop-blur">
     <!--logo icon & menu - cart , switch theme btn & separator & login , sign in btn-->
-    <div class="flex items-center justify-between">
+    <div class="flex items-center justify-between tracking-tightest">
         <!--logo icon & menu-->
         <div class="flex items-center gap-x-9">
             <!--logo icon-->
@@ -40,9 +40,19 @@
                 <img src="./images/app-logo.png" alt="">
             </a>
             <!--menu-->
-            <div class="flex gap-x-9 text-xl text-gray-300">
+            <div class="flex gap-x-9 text-xl text-gray-300 h-14 leading-[56px]">
                 <a class="font-DanaMedium text-orange-200" href="#">صفحه اصلی</a>
-                <a href="#">فروشگاه</a>
+                <div class="relative group">
+                    <a class="hover:text-orange-300 transition-colors" href="#">فروشگاه</a>
+                    <div class="absolute opacity-0 invisible top-full right-0 w-52 p-6 space-y-4 rounded-2xl border-t-[3px] border-orange-300 shadow-main text-base bg-white group-hover:opacity-100 group-hover:visible transition-all child:block child:tracking-normal child:text-zinc-700 child-hover:text-orange-300 child:transition-colors">
+                        <a href="#">قهوه ویژه</a>
+                        <a href="#">ویژه در سطح جهانی</a>
+                        <a href="#">قهوه درجه یک</a>
+                        <a href="#">ترکیبات تجاری</a>
+                        <a href="#">کپسول قهوه</a>
+                        <a href="#">قهوه زینو برزیلی</a>
+                    </div>
+                </div>
                 <a href="#">دیکشنری</a>
                 <a href="#">بلاگ</a>
                 <a href="#">درباره ما</a>

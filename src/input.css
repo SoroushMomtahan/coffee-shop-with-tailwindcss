@@ -41,4 +41,10 @@
         url("../fonts/Morabba/woff2/Morabba-Bold.woff2") format("woff");
         font-display: swap;
     }   /*700*/
+
+    body{
+        background-image: url("../images/headerBgDesktop.png");
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
 }
