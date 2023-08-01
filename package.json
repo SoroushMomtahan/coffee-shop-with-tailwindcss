@@ -1,8 +1,12 @@
 {
   "scripts": {
-    "build": "npx tailwindcss -i ./src/input.css -o ./public/style/app.css --watch"
+    "build": "npx tailwindcss -i ./src/input.css -o ./public/style/app.css --watch",
+    "start": "live-server public"
   },
   "devDependencies": {
     "tailwindcss": "^3.3.2"
+  },
+  "dependencies": {
+    "live-server": "^1.2.2"
   }
 }

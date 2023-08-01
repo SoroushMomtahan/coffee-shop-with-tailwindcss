@@ -43,7 +43,8 @@
     }   /*700*/
 
     body{
-        background-image: url("../images/headerBgDesktop.png");
+    /* @apply bg-[url("../images/headerBgMobile.webp")]; */
+    /* background-image: url("../images/headerBgDesktop.webp"); */
         background-repeat: no-repeat;
         background-size: 100%;
     }
